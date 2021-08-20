@@ -18,7 +18,7 @@ click @ file:///tmp/build/80754af9/click_1621604852318/work
 cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1616851523607/work
 cymem @ file:///opt/concourse/worker/volumes/live/0312466e-c9ce-4567-76d1-bfa1d6610ef2/volume/cymem_1613319253044/work
 en-core-web-sm @ file:///home/conda/feedstock_root/build_artifacts/spacy-model-en_core_web_1595437534769/work/sm
-Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
+
 Flask-SQLAlchemy @ file:///home/conda/feedstock_root/build_artifacts/flask-sqlalchemy_1616102249273/work
 greenlet @ file:///opt/concourse/worker/volumes/live/b27b4e9e-4697-4d57-403b-f82d36a391ca/volume/greenlet_1628888146890/work
 gunicorn @ file:///opt/concourse/worker/volumes/live/f7b39e0f-a194-41b6-4722-90b8829755e9/volume/gunicorn_1617120639810/work
