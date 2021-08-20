@@ -4,7 +4,7 @@ from os import getenv
 import tweepy
 import spacy
 from web_app.models import DB, Tweet, User
-import en_core_web_sm
+
 
 
 
