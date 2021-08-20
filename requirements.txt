@@ -4,7 +4,7 @@ spacy>=2.3.5
 scikit-learn>=0.24.2
 tweepy>=3.10.0
 psycopg2-binary>=2.9.1
-gunicorn>=20.1.0attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
+gunicorn>=20.1.0
 basilica==0.2.8
 blinker==1.4
 blis @ file:///opt/concourse/worker/volumes/live/728a53c8-b9d7-497c-68eb-780cc5d2afb5/volume/cython-blis_1613319326548/work
