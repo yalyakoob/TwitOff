@@ -16,6 +16,6 @@ def predict_user(user1_name, user2_name, tweet_text, cache=None):
     labels = np.concatenate([user1_labels, user2_labels])
     log_reg = LogisticRegression(solver='lbfgs', max_iter=1000)
     log_reg.fit(embeddings_1, labels)
-    nlp = spacy.load('en')
+    nlp = spacy.load('en_core_web_sm')
     tweet_embedding = nlp(tweet_text).vector
     return log_reg.predict(np.array([tweet_embedding]).reshape(1,-1))
