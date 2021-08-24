@@ -1,1 +1,1 @@
-web: gunicorn web_app:APP -t 120 --log-file=- --log-level=debug
+web: gunicorn web_app:APP -t 120
