@@ -9,7 +9,7 @@ from web_app.models import DB, Tweet, User
 
 
 
-
+TWITTER_API_KEY = 'lvZgIbYSaKPDWQ9VaMtUeMKID'
 TWITTER_AUTH = tweepy.OAuthHandler(TWITTER_API_KEY, TWITTER_API_KEY_SECRET)
 TWITTER = tweepy.API(TWITTER_AUTH)
 
