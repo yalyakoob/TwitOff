@@ -2,7 +2,7 @@ from flask import Flask
 from flask import render_template
 from flask import request
 from .models import DB, User, Tweet
-from .twitter import add_or_update_user
+from web_app.twitter import add_or_update_user
 from .predict import predict_user
 import os
 
