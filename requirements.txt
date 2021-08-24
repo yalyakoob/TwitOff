@@ -22,7 +22,6 @@ Jinja2==3.0.1
 joblib==1.0.1
 jsonschema==3.0.2
 MarkupSafe==2.0.1
-mkl-random==1.2.2
 mkl-service==2.4.0
 murmurhash==1.0.5
 numpy==1.20.3
